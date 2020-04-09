@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -136,7 +136,7 @@ table {
 
 html {
   font-size: 62.5%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -181,22 +181,24 @@ img {
 }
 
 .dark-mode__toggle {
-  background: papayawhip;
+  background: rgb(204, 191, 171);
   border-radius: 50px;
   border: 1px solid black;
-  height: 20px;
+  height: 60px;
   position: relative;
-  width: 40px;
+  width: 120px;
+  font-weight: 900;
 }
 
 .toggle {
-  background: #f68819;
+  background: black;
   border-radius: 50px;
   height: 18px;
   left: 0;
   position: absolute;
   transition: 0.2s;
   width: 20px;
+  margin-left: 30%;
 }
 
 .toggled {
@@ -229,8 +231,8 @@ img {
 .coin__title {
   display: block;
   margin-left: 8px;
-    min-width: 160px;
-text-align: left;
+  min-width: 160px;
+  text-align: left;
 }
 
 .coin__symbol {
@@ -247,7 +249,7 @@ text-align: left;
   background-color: #313843;
 
   .navbar {
-    background-color: #1F2022;
+    background-color: #1f2022;
     border: none;
   }
 }
